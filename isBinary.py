@@ -63,4 +63,4 @@ def readdump(dumpname, mode='r'):
 
 if __name__ == "__main__":
     p = sys.argv[1]
-    print u'{} is Binary? : {}'.format(p, isBinary(p))
+    print(u'{} is Binary? : {}'.format(p, isBinary(p)))
