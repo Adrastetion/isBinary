@@ -45,7 +45,7 @@ def isBinary08HCharacter(buf):
     ファイルの中身を開きASCIIコードの08H以下があるかどうかで判別
     """
     ret = False
-    l = map(ord, list(buf))
+    l = map(ord, str(buf))
     for n in range(0, 9):
         if n in l:
             ret = True
